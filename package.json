@@ -1,0 +1,46 @@
+{
+  "name": "gatsby-plugin-pdf-export",
+  "version": "0.0.1",
+  "description": "Export Gatsby pages to PDFs at build time",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir ./dist --ignore \"**/__tests__,**/*.d.ts\" --extensions \".ts,.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "gatsby": "^4.2.0 || ^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewmincher/gatsby-plugin-pdf-export.git"
+  },
+  "keywords": [
+    "gatsby",
+    "pdf"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewmincher/gatsby-plugin-pdf-export/issues"
+  },
+  "homepage": "https://github.com/matthewmincher/gatsby-plugin-pdf-export#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.23.7",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.10.6",
+    "@types/puppeteer": "^7.0.4",
+    "babel-preset-gatsby-package": "^3.13.0",
+    "prettier": "^3.1.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.23.7",
+    "gatsby-core-utils": "^4.13.0",
+    "gatsby-plugin-utils": "^4.13.0",
+    "lodash": "^4.17.21",
+    "puppeteer": "^21.6.1"
+  }
+}
